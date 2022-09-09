@@ -1,0 +1,23 @@
+{
+  "name": "exercise_controller",
+  "version": "1.0.0",
+  "main": "exercise_controller.js",
+  "type": "module",
+  "scripts": {
+    "start": "node exercise_controller.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
