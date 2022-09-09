@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(34, 34, 34);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color:rgb(229, 205, 182);
+  padding:0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:rgb(229, 205, 182);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+}
+
+tr, th{
+  padding: 0;
+  color:rgb(229, 205, 182);
+}
+
+tr, td{
+  padding: 0;
+  color:rgb(229, 205, 182);
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color:rgb(229, 205, 182);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0
+}
+
+input{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color:rgb(229, 205, 182);
+}
+
+button{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color:rgb(229, 205, 182);
+}
